@@ -4,7 +4,7 @@
 temperatura = float (input("Digte a temperatura"))
 
 #abaixo iniciado o bloco condicional com if para comerçar o desafio
-if temperatura >=25:
+if temperatura >=24:
     print("Esta calor,pegue seus oculos de sol e use roupas leves")
     
 #abaixo usarei alguns elif para que se o if não seja reconhecido como verdadeiro ele retorne uma das opções abaixo
