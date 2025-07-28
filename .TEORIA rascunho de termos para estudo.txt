@@ -1,0 +1,116 @@
+PROGRAMA É UM CONJUNTO DE INSTRUÇÕES PARA EXECUTAR UMA TAREFA COMPUTACIONAL
+
+LINGUAGEM DE PROGRAMAÇÃO É UM IDIOMA DE MAQUINA, porem não é bem isso,
+ a linguagem de programação é um meio termo entre o usuario e a maquina , porem para que possa haver uma 
+interação precisamos de um intermediario (compilador) que haje como tradutor
+
+PROMPT ESPAÇO PARA INTERAÇÃO ENTRE MAQUINA E USUARIO
+
+VARIAVEL GUARDA UM VALOR ,SEJA TEXTO OU NUMERO
+
+DADO É O VALOR QUE PODE SER ARMAZENADO EM UMA VARIAVEL
+
+FUNÇÃO É A TAREFA QUE ESCREVEMOS (COMO VERBO EM INGLES),porem ela pode ja prexeistir como print()
+
+INSTRUÇÃO OU COMANDO ,QUANDO PASSAMOS ALGO PARA A MAQUINA FAZER , PODE SER A SOMA DE UMA FUNÇÃO , 
+a instrução pode ser algo simples como declarar um variavel , ou pedir para que algo seja escrito na tela
+
+comandos e dados são coisas distintas 
+===============================================================================================================
+COMANDOS
+COMANDO STRING , E QUANDO UMA VARIAVEL TEM DADO REPRENSENTADO POR TEXTO
+string é o proprio dado , ele é armazenado como texto=string
+
+COMANDO INPUT , É QUANDO UM DADO SERA REQUISITADO AO USUARIO, O PROGRAMA PARA E PEDE 
+PARA QUE ALGO SEJA ESCRITO, PODEMOS ADICIONAR UMA STRING PARA DIRECIONAR O USUARIO
+SOBRE O QUE DEVE SER ESCRITO, POREM DENTRO DA VARIAVEL SÓ SERA ARMAZENADO O VALOR 
+QUE O USUARIO FINAL COLOCOU NO TERMINAL  
+
+COMANDO IF, E USADO PARA CRIAR CONDICIONAIS COM VERDADEIRO E FALSO , APÓS ESCREVER A PRIMEIRA CONDICIONAL 
+FAÇA O USO DOS DOIS PONTOS
+
+COMANDO ELIF, E USADO PARA CRIAR OUTRAS CONDICIONAIS DENTRO DE UM BLOCO CONDICIONAL , ENTRE O IF E O ELSE
+ASSIM COM O IF O MESMO FARA O USO DE DOIS PONTOS NO FIM DA LINHA 
+
+COMANDO ELSE, FINALIZA O BLOCO DE CONDICIONAL, SE O IF NÃO FOR VERDAEIRO, E NENHUM ELIF FOR VERDADEIRO 
+O ELSE SERA EXECUTADO o else não precisa de condicional, se nenhuma acima for verdadeira , só lhe resta o que cabe no else
+
+COMANDO FOR , É USADO PARA REPETIÇÃO , PODEMOS CRIAR UMA LISTA DE ITENS E PEDIR QUE ELE INSIRA UMA FRASE E UM ITEM DA LISTA 
+ASSIM QUE TODOS OS ITENS TERMINAREM ELE PARA DE INSERIR FRASES A ITENS
+===================================================================================
+print é usado print()
+variavel = input()
+if precisa que seja endentado(possua 4 espaços ou um tab ) para que o compilador entenda, o if nada mais é do que uma condicional
+elif vai entre o if e o else para adicionarmos inumeras condicionais ,assim como no if os dois pontos são adicionados ao fima da linha
+else possui dois pontos após a palavra, caso nenhuma das condicionais acima seja verdadeira ele entra em ação
+for precisa de ":", "[]" "indice" (que sera indexado(localizado)) e "," para separar os indeces de uma lista, 
+ lembrando que a lista começa o indice 0, no 0 havera um item, pois 0 não sera tratado como quantidade e sim como posição 
+===================================================================================
+CONDICIONAIS
+cuidado ao fazer o uso de <,<=,>,>= os simbulos devem respeitar uma logica ou seja , maior igual ou menor igual , caso contrario 
+pode acarretar em algum erro
+===================================================================================
+
+===================================================================================
+CONVERSÃO DE STRING PARA NUMERO 
+
+sempre que fazemos o uso do intup ela pega o dado recebido e converte para string, então caso precise que o dado seja 
+utilizado para uma operação , devemos converter esse dado para float ou int, sendo int para valores inteiros, como idade,
+ou float para numeros com virgula, como a medida de litros ou km
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
+
+Ótimo\! Com o seu entendimento sobre `input()`, `int()`, `f-strings`, e agora o `if` e `else` (e a importância da **indentação**\!), você está pronto para o desafio.
+
+-----
+
+### Desafio: Verificador de Maioridade\!
+
+Seu programa vai pedir a idade do usuário e, em seguida, informar se ele é maior ou menor de idade, de acordo com as regras brasileiras (18 anos).
+
+**O que você precisa fazer:**
+
+1.  **Peça ao usuário para digitar sua idade.** (Lembre-se: use `input()` e **converta** para um número inteiro com `int()`).
+2.  **Crie uma condição (`if`)** para verificar se a idade digitada é **maior ou igual a 18**.
+3.  **Dentro do `if`** (com a **indentação** correta\!), exiba uma mensagem como: `"Você é maior de idade no Brasil!"`
+4.  **Crie um `else`** para a situação em que a idade **não for maior ou igual a 18**.
+5.  **Dentro do `else`** (também com a **indentação** correta\!), exiba uma mensagem como: `"Você é menor de idade no Brasil."`
+
+-----
+
+**Exemplo de como deve funcionar (com duas possibilidades de entrada):**
+
+**Cenário 1: Usuário digita 20**
+
+```
+Qual é a sua idade? 20
+Você é maior de idade no Brasil!
+```
+
+**Cenário 2: Usuário digita 15**
+
+```
+Qual é a sua idade? 15
+Você é menor de idade no Brasil.
+```
+
+-----
+
+Tente escrever o código. Não se preocupe se cometer erros; eles são parte do processo de aprendizado. Se algo não funcionar ou se tiver qualquer dúvida, pode me perguntar\! Boa sorte\!

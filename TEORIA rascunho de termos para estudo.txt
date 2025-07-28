@@ -1,0 +1,27 @@
+PROGRAMA É UM CONJUNTO DE INSTRUÇÕES PARA EXECUTAR UMA TAREFA COMPUTACIONAL
+
+LINGUAGEM DE PROGRAMAÇÃO É UM IDIOMA DE MAQUINA, porem não é bem isso,
+ a linguagem de programação é um meio termo entre o usuario e a maquina , porem para que possa haver uma 
+interação precisamos de um intermediario (compilador) que haje como tradutor
+
+PROMPT ESPAÇO PARA INTERAÇÃO ENTRE MAQUINA E USUARIO
+
+VARIAVEL GUARDA UM VALOR ,SEJA TEXTO OU NUMERO
+
+DADO É O VALOR QUE PODE SER ARMAZENADO EM UMA VARIAVEL
+
+FUNÇÃO É A TAREFA QUE ESCREVEMOS (COMO VERBO EM INGLES),porem ela pode ja prexeistir como print()
+
+INSTRUÇÃO OU COMANDO ,QUANDO PASSAMOS ALGO PARA A MAQUINA FAZER , PODE SER A SOMA DE UMA FUNÇÃO , 
+a instrução pode ser algo simples como declarar um variavel , ou pedir para que algo seja escrito na tela
+
+comandos e dados são coisas distintas 
+===============================================================================================================
+COMANDOS
+COMANDO STRING , E QUANDO UMA VARIAVEL TEM DADO REPRENSENTADO POR TEXTO
+string é o proprio dado , ele é armazenado como texto=string
+
+COMANDO INPUT , É QUANDO UM DADO SERA REQUISITADO AO USUARIO, O PROGRAMA PARA E PEDE 
+PARA QUE ALGO SEJA ESCRITO, PODEMOS ADICIONAR UMA STRING PARA DIRECIONAR O USUARIO
+SOBRE O QUE DEVE SER ESCRITO, POREM DENTRO DA VARIAVEL SÓ SERA ARMAZENADO O VALOR 
+QUE O USUARIO FINAL COLOCOU NO TERMINAL  
