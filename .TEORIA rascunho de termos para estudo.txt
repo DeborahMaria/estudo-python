@@ -17,34 +17,41 @@ a instrução pode ser algo simples como declarar um variavel , ou pedir para qu
 
 comandos e dados são coisas distintas 
 ===============================================================================================================
-COMANDOS
-COMANDO STRING , E QUANDO UMA VARIAVEL TEM DADO REPRENSENTADO POR TEXTO
+IMPORTANTE
+STRING , E QUANDO UMA VARIAVEL TEM DADO REPRENSENTADO POR TEXTO
 string é o proprio dado , ele é armazenado como texto=string
 
-COMANDO INPUT , É QUANDO UM DADO SERA REQUISITADO AO USUARIO, O PROGRAMA PARA E PEDE 
+INPUT , É QUANDO UM DADO SERA REQUISITADO AO USUARIO, O PROGRAMA PARA E PEDE 
 PARA QUE ALGO SEJA ESCRITO, PODEMOS ADICIONAR UMA STRING PARA DIRECIONAR O USUARIO
 SOBRE O QUE DEVE SER ESCRITO, POREM DENTRO DA VARIAVEL SÓ SERA ARMAZENADO O VALOR 
 QUE O USUARIO FINAL COLOCOU NO TERMINAL  
 
-COMANDO IF, E USADO PARA CRIAR CONDICIONAIS COM VERDADEIRO E FALSO , APÓS ESCREVER A PRIMEIRA CONDICIONAL 
+IF, E USADO PARA CRIAR CONDICIONAIS COM VERDADEIRO E FALSO , APÓS ESCREVER A PRIMEIRA CONDICIONAL 
 FAÇA O USO DOS DOIS PONTOS
 
-COMANDO ELIF, E USADO PARA CRIAR OUTRAS CONDICIONAIS DENTRO DE UM BLOCO CONDICIONAL , ENTRE O IF E O ELSE
+ELIF, E USADO PARA CRIAR OUTRAS CONDICIONAIS DENTRO DE UM BLOCO CONDICIONAL , ENTRE O IF E O ELSE
 ASSIM COM O IF O MESMO FARA O USO DE DOIS PONTOS NO FIM DA LINHA 
 
-COMANDO ELSE, FINALIZA O BLOCO DE CONDICIONAL, SE O IF NÃO FOR VERDAEIRO, E NENHUM ELIF FOR VERDADEIRO 
+ELSE, FINALIZA O BLOCO DE CONDICIONAL, SE O IF NÃO FOR VERDAEIRO, E NENHUM ELIF FOR VERDADEIRO 
 O ELSE SERA EXECUTADO o else não precisa de condicional, se nenhuma acima for verdadeira , só lhe resta o que cabe no else
 
-COMANDO FOR , É USADO PARA REPETIÇÃO , PODEMOS CRIAR UMA LISTA DE ITENS E PEDIR QUE ELE INSIRA UMA FRASE E UM ITEM DA LISTA 
+FOR , É USADO PARA REPETIÇÃO (LOOP) , PODEMOS CRIAR UMA LISTA DE ITENS E PEDIR QUE ELE INSIRA UMA FRASE E UM ITEM DA LISTA 
 ASSIM QUE TODOS OS ITENS TERMINAREM ELE PARA DE INSERIR FRASES A ITENS
+
+RANGE, É UMA ESPECIE DE CONTADOR, ELE GERA NUMEROS SEQUENCIAIS,UM A UM ,POIS SE TIVESSE UM NUMERO MUITO GRANDE PODERIAMOS TER UM PROBLEMA
+
 ===================================================================================
 print é usado print()
 variavel = input()
 if precisa que seja endentado(possua 4 espaços ou um tab ) para que o compilador entenda, o if nada mais é do que uma condicional
 elif vai entre o if e o else para adicionarmos inumeras condicionais ,assim como no if os dois pontos são adicionados ao fima da linha
 else possui dois pontos após a palavra, caso nenhuma das condicionais acima seja verdadeira ele entra em ação
-for precisa de ":", "[]" "indice" (que sera indexado(localizado)) e "," para separar os indeces de uma lista, 
- lembrando que a lista começa o indice 0, no 0 havera um item, pois 0 não sera tratado como quantidade e sim como posição 
+for precisa de ":", "[]" "indice" (que sera indexado(localizado)), "," e para cada para cada item da lista usas "aspas" separar os indeces de uma lista, 
+ lembrando que a lista começa o indice 0, no 0 havera um item, pois 0 não sera tratado como quantidade e sim como posição, para que tudo funcione 
+sera necessario adicionar o "in" basicamente ele cria uma ponte entre a função e a lista, entre o for e o in havera uma variavel temporaria, usamos
+para que ela seja usada dentro do print que estara apos o for 
+range() é um gerador de sequencias numericas, conta sempre um a um, pode determinar onde começa,onde terminara e qual o seu intervalo, trabalhando
+com numeros inteiros
 ===================================================================================
 CONDICIONAIS
 cuidado ao fazer o uso de <,<=,>,>= os simbulos devem respeitar uma logica ou seja , maior igual ou menor igual , caso contrario 
@@ -58,11 +65,22 @@ sempre que fazemos o uso do intup ela pega o dado recebido e converte para strin
 utilizado para uma operação , devemos converter esse dado para float ou int, sendo int para valores inteiros, como idade,
 ou float para numeros com virgula, como a medida de litros ou km
 
+TAREFA : COLOCAR NO GIT (feito)
+
+PRIMEIRA ETAPA
+
+-array
+-condicional 
+-laço de repetição(do while,while e for)
+-função 
+-matriz (list,array,dictionary)
+-clean code
+-DEBUGGNG (IMPORTANTE)
 
 
-
-
-
+C:\WINDOWS\system32>   where python
+C:\Program Files\Python313\python.exe
+C:\Users\Notebook Lenovo\AppData\Local\Microsoft\WindowsApps\python.exe
 
 
 
