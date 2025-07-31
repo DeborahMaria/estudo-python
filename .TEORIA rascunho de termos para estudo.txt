@@ -40,6 +40,10 @@ ASSIM QUE TODOS OS ITENS TERMINAREM ELE PARA DE INSERIR FRASES A ITENS
 
 RANGE, É UMA ESPECIE DE CONTADOR, ELE GERA NUMEROS SEQUENCIAIS,UM A UM ,POIS SE TIVESSE UM NUMERO MUITO GRANDE PODERIAMOS TER UM PROBLEMA
 
+IMPORTAR , É UTILIZADO PARA TRAZER ALGO PRONTO OU A SER PREPARADO DE FORA PARA DENTRO ativa o que vai ser usado
+
+LEN() , ELE IDENTIFICA E CONTA O NUMERO DE ITENS DE UMA LISTA
+
 ===================================================================================
 print é usado print()
 variavel = input()
@@ -64,6 +68,21 @@ CONVERSÃO DE STRING PARA NUMERO
 sempre que fazemos o uso do intup ela pega o dado recebido e converte para string, então caso precise que o dado seja 
 utilizado para uma operação , devemos converter esse dado para float ou int, sendo int para valores inteiros, como idade,
 ou float para numeros com virgula, como a medida de litros ou km
+===================================================================================
+BIBLIOTECA
+
+biblioteca são como , funções pre criadas, porem por questão de espaço é prciso importar, como trazer uma nova habilidade 
+
+RANDOM É UMA BIBLIOTECA DO PYTHON PARA COISAS ALEATORIAS
+
+RANDIT É UMA FUNÇÃO EXCLUSIVA DA BIBLIOTECA RADON (para usar é necessario "()")
+
+antes de usar a biblioteca é necessario importa-la com "import""nome da biblioteca"
+
+declare uma variavel para a armazenar sua função 
+
+dica: para usar digite o "nome da biblioteca",".", função "randit" e o "parametro" ex(1,100) dara um numero aleatorio de 1 a 100
+
 
 TAREFA : COLOCAR NO GIT (feito)
 
@@ -129,6 +148,68 @@ Qual é a sua idade? 15
 Você é menor de idade no Brasil.
 ```
 
------
+====================================================================================================================
+Exercício 1: A Vitrine de Produtos
+Neste exercício, você vai usar variáveis, print(), input(), f-string, if/elif/else, for loop e range() para simular uma pequena vitrine de produtos e um cálculo de desconto.
 
-Tente escrever o código. Não se preocupe se cometer erros; eles são parte do processo de aprendizado. Se algo não funcionar ou se tiver qualquer dúvida, pode me perguntar\! Boa sorte\!
+O Desafio:
+Crie um programa que:
+
+Peça ao usuário seu nome usando input().
+
+Crie uma lista com pelo menos 5 nomes de produtos (strings), por exemplo: ["Camiseta", "Calça", "Meia", "Sapato", "Boné"].
+
+Crie uma segunda lista com os preços correspondentes a cada produto da primeira lista (números, podem ser float ou int), por exemplo: [59.90, 120.00, 15.50, 200.00, 30.00].
+
+Use um for loop com range() para percorrer as listas. A cada item, exiba o produto e seu preço de forma formatada (usando f-string). Ex: "1. Camiseta - R$ 59.90".
+
+Peça ao usuário para escolher um número de produto (de acordo com a lista que você exibiu) para aplicar um desconto. Use input() e converta para int().
+
+Use uma estrutura if/elif/else para verificar o número que o usuário digitou:
+
+Se o número for válido (dentro do range dos produtos):
+
+Calcule o preço com 10% de desconto para o produto escolhido.
+
+Exiba uma mensagem de agradecimento usando o nome do usuário e informando o nome do produto escolhido e o novo preço com desconto (ex: "Obrigado(a), [Nome]! A [Produto Escolhido] agora custa R$ [Preço com Desconto].").
+
+Se o número for inválido (fora do range dos produtos):
+
+Exiba uma mensagem informando que a escolha foi inválida.
+
+Exercício 2: O Sorteador Simples
+Este exercício vai focar em import, random e randint().
+
+O Desafio:
+Crie um programa que:
+
+Importe a biblioteca random.
+
+Gere um número aleatório inteiro entre 1 e 6 (como um dado).
+
+Armazene esse número em uma variável.
+
+Exiba uma mensagem usando print() e uma f-string que diga: "O número sorteado no dado foi: [Número Sorteado]!".
+
+Exercício 3: O Desafio Adivinhe o Número (com while!)
+Este é o desafio que tínhamos combinado, mas agora você terá uma base muito mais sólida para encará-lo. Ele introduzirá o conceito de while loop.
+
+O Desafio:
+Crie um programa onde:
+
+O computador "pensa" em um número secreto inteiro aleatório entre 1 e 100 (usando random.randint()).
+
+Ele continuará pedindo ao usuário para adivinhar o número até que ele acerte. (Aqui você usará o while loop).
+
+A cada tentativa do usuário (usando input() e int()):
+
+Se a tentativa for menor que o número secreto, diga: "É maior! Tente novamente."
+
+Se a tentativa for maior que o número secreto, diga: "É menor! Tente novamente."
+
+Se a tentativa for igual ao número secreto, diga: "Parabéns! Você acertou o número!"
+
+Conte e exiba quantas tentativas o usuário levou para acertar.
+
+range(len(minha_lista))
+frutas.append('laranja')

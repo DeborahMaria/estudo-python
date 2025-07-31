@@ -1,0 +1,78 @@
+PS D:\teste api>
+ *  Histórico restaurado 
+
+PS D:\teste api> python --version
+Python 3.13.5
+PS D:\teste api> ls
+
+
+    Diretório: D:\teste api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        24/07/2025     13:12            985 05 PROGRAMA treinando_input_e conversão_de_string.py.py
+-a----        24/07/2025     15:12           1439 TEORIA rascunho de termos para estudo.txt
+-a----        27/07/2025     17:35           5272 .TEORIA rascunho de termos para estudo.txt
+-a----        22/07/2025     15:37            138 01 PROGRAMA teste de print de tela.py.py
+-a----        24/07/2025     15:05           1059 06 PROGRAMA treinando_input_conversão_de_string_operacao.py.py
+-a----        27/07/2025     15:29            607 09 PROGRAMA treinando_if_e_else.py.py
+-a----        24/07/2025     14:25           1057 treinando print em py
+-a----        27/07/2025     16:40            663 10 PROGRAMA treinando_if_elif_else.py.py
+-a----        24/07/2025     15:10           1152 07 PROGRAMA treinando_input_conversão_de_string_operacao_variavel que_calcula.py.py
+-a----        24/07/2025     15:10           1152 08 PROGRAMA treinando_input_conversão_de_string_operacao_variavel que_calcula.py - Copia.-a----        27/07/2025     16:41            829 11 PROGRAMA treinando_if_elif_else_usando_f-strig.py - Copia.py
+-a----        27/07/2025     16:41            829 12 PROGRAMA treinando_if_elif_else_usando_f-strig.py - Copia - Copia.py
+
+
+PS D:\teste api> python '.\01 PROGRAMA teste de print de tela.py.py'
+PS D:\teste api> git status  (COMANDO)
+fatal: detected dubious ownership in repository at 'D:/teste api'
+'D:/teste api' is on a file system that does not record ownership
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory 'D:/teste api'
+PS D:\teste api> git config -- global user.name "DeborahMaria" (COMANDO)
+fatal: not in a git directory
+PS D:\teste api>  git config --global user.name "DeborahMaria" (COMANDO)
+PS D:\teste api> git config --global user.email deborah.maria1@hotmail.com (COMANDO)
+PS D:\teste api> git add . (COMANDO)
+PS D:\teste api> git commit -m "first commit" (COMANDO)
+[master (root-commit) c2b4cd6] first commit (COMANDO)
+ 15 files changed, 426 insertions(+)
+ create mode 100644 .TEORIA rascunho de termos para estudo.txt
+ create mode 100644 01 PROGRAMA teste de print de tela.py.py
+ create mode 100644 02 PROGRAMA teste de print de tela com variavel.py - Copia.py
+ create mode 100644 03 PROGRAMA teste de print de tela com variavel e f-string.py
+ create mode 100644 "05 PROGRAMA treinando_input_e convers\303\243o_de_string.py.py"
+ create mode 100644 "06 PROGRAMA treinando_input_convers\303\243o_de_string_operacao.py.py"
+ create mode 100644 "07 PROGRAMA treinando_input_convers\303\243o_de_string_operacao_variavel que_calcula.py.py"
+ create mode 100644 "08 PROGRAMA treinando_input_convers\303\243o_de_string_operacao_variavel que_calcula.py - Copia.py"
+ create mode 100644 09 PROGRAMA treinando_if_e_else.py.py
+ create mode 100644 10 PROGRAMA treinando_if_elif_else.py.py
+ create mode 100644 11 PROGRAMA treinando_if_elif_else_usando_f-strig.py - Copia.py
+ create mode 100644 12 PROGRAMA treinando_if_elif_else_usando_f-strig.py - Copia - Copia.py
+ create mode 100644 TEORIA rascunho de termos para estudo.txt
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS D:\teste api> git remote add origin https://github.com/DeborahMaria/estudo-python.git (COMANDO)
+PS D:\teste api> git push -u origin master (COMANDO)
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Writing objects: 100% (14/14), 5.03 KiB | 514.00 KiB/s, done.
+Total 14 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/DeborahMaria/estudo-python.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS D:\teste api> git add .
+PS D:\teste api> git commit -m "alteração de temperatura de 25 para 24"
+[master d08c29a] alteração de temperatura de 25 para 24
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\teste api> git push
